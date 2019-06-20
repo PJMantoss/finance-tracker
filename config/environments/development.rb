@@ -1,4 +1,8 @@
 Rails.application.configure do
+
+  IEX::Api.configure do |config|
+    config.publishable_token='pk_2c0aeff38fe04a53b5a83568040db1cb'
+end
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
